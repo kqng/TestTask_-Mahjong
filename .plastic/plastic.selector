@@ -1,0 +1,3 @@
+repository "TestTask_ Mahjong@kqngwap@cloud"
+  path "/"
+    smartbranch "/main/Testing_Grid"
