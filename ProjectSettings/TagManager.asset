@@ -8,13 +8,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Cell
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Lvl_1
+  - Lvl_2
+  - Lvl_3
+  - Lvl_4
   - 
   - 
   - 

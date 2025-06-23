@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CellCollector : MonoBehaviour
 {
+    [SerializeField] private string layer;
     private List<GameObject> cells = new List<GameObject>();
     void Start()
     {
@@ -16,6 +17,10 @@ public class CellCollector : MonoBehaviour
         {
             cells.Add(child.gameObject);
         }
+    }
+    public string GetLayer()
+    {
+        return layer;
     }
     public List<GameObject> GetCells()
     {
