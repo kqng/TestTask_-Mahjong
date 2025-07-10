@@ -32,5 +32,7 @@ namespace Board.Tile
         {
             _spriteRenderer.sprite = sprite;
         }
+
+        public TileIndex Index { get; set; }
     }
 }
